@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				3553DCDC26636CB7003757DB /* FlipApp.swift */,
-				358AD89C2666673200A142F6 /* MemoryGame.swift */,
 				358AD89E2666690E00A142F6 /* EmojiMemoryGame.swift */,
+				358AD89C2666673200A142F6 /* MemoryGame.swift */,
 				3553DCDE26636CB7003757DB /* ContentView.swift */,
 				3553DCE026636CB8003757DB /* Assets.xcassets */,
 				3553DCE526636CB8003757DB /* Info.plist */,
