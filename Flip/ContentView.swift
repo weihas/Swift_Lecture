@@ -12,21 +12,38 @@ struct ContentView: View {
     
     
     var body: some View {
-        ScrollView{
-            LazyVGrid(columns:[GridItem(.adaptive(minimum: 75))]){
-                ForEach(viewModel.cards) { card in
-                    CardView(card: card)
-                        .aspectRatio(2/3, contentMode: .fit)
-                        .onTapGesture {
-                            viewModel.choose(card)
-                        }
+        VStack {
+            ZStack {
+                Text("\(viewModel.themeName)")
+                    .font(.title)
+                HStack{
+                    Spacer()
+                    Button{
+                        viewModel.restart()
+                    }label: {
+                        Image(systemName: "gobackward")
+                            .padding()
+                    }
                 }
             }
+            
+            
+            ScrollView{
+                LazyVGrid(columns:[GridItem(.adaptive(minimum: 75))]){
+                    ForEach(viewModel.cards) { card in
+                        CardView(card: card,gradient: viewModel.gradient)
+                            .aspectRatio(2/3, contentMode: .fit)
+                            .onTapGesture {
+                                viewModel.choose(card)
+                            }
+                    }
+                }
+            }
+            .foregroundColor(viewModel.themeColor)
+            .padding(.horizontal)
+            Text("score: \(viewModel.score)")
+                .font(.title3)
         }
-        .foregroundColor(.red)
-        .padding(.horizontal)
-        
-        
     }
 }
 
@@ -34,6 +51,8 @@ struct ContentView: View {
 
 struct CardView: View {
     let card: MemoryGame<String>.Card
+    let gradient: Gradient
+    
     
     
     var body: some View {
@@ -47,7 +66,7 @@ struct CardView: View {
                 shape.opacity(0.1)
             }
             else {
-                shape.fill()
+                shape.fill(LinearGradient(gradient: gradient, startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
             }
         }
     }

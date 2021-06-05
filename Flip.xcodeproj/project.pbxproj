@@ -13,6 +13,7 @@
 		3553DCE426636CB8003757DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3553DCE326636CB8003757DB /* Preview Assets.xcassets */; };
 		3553DCEF26636CB8003757DB /* FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553DCEE26636CB8003757DB /* FlipTests.swift */; };
 		3553DCFA26636CB8003757DB /* FlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553DCF926636CB8003757DB /* FlipUITests.swift */; };
+		355CCF2D2667A51100C665D5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355CCF2C2667A51100C665D5 /* Theme.swift */; };
 		358AD89D2666673200A142F6 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358AD89C2666673200A142F6 /* MemoryGame.swift */; };
 		358AD89F2666690E00A142F6 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358AD89E2666690E00A142F6 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		3553DCF526636CB8003757DB /* FlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3553DCF926636CB8003757DB /* FlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipUITests.swift; sourceTree = "<group>"; };
 		3553DCFB26636CB8003757DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355CCF2C2667A51100C665D5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		358AD89C2666673200A142F6 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		358AD89E2666690E00A142F6 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,9 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				3553DCDC26636CB7003757DB /* FlipApp.swift */,
+				3553DCDE26636CB7003757DB /* ContentView.swift */,
 				358AD89E2666690E00A142F6 /* EmojiMemoryGame.swift */,
 				358AD89C2666673200A142F6 /* MemoryGame.swift */,
-				3553DCDE26636CB7003757DB /* ContentView.swift */,
+				355CCF2C2667A51100C665D5 /* Theme.swift */,
 				3553DCE026636CB8003757DB /* Assets.xcassets */,
 				3553DCE526636CB8003757DB /* Info.plist */,
 				3553DCE226636CB8003757DB /* Preview Content */,
@@ -267,6 +270,7 @@
 			files = (
 				358AD89D2666673200A142F6 /* MemoryGame.swift in Sources */,
 				3553DCDF26636CB7003757DB /* ContentView.swift in Sources */,
+				355CCF2D2667A51100C665D5 /* Theme.swift in Sources */,
 				3553DCDD26636CB7003757DB /* FlipApp.swift in Sources */,
 				358AD89F2666690E00A142F6 /* EmojiMemoryGame.swift in Sources */,
 			);
