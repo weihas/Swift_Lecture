@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3553DCDD26636CB7003757DB /* FlipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553DCDC26636CB7003757DB /* FlipApp.swift */; };
-		3553DCDF26636CB7003757DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553DCDE26636CB7003757DB /* ContentView.swift */; };
+		3553DCDF26636CB7003757DB /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553DCDE26636CB7003757DB /* EmojiMemoryGameView.swift */; };
 		3553DCE126636CB8003757DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3553DCE026636CB8003757DB /* Assets.xcassets */; };
 		3553DCE426636CB8003757DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3553DCE326636CB8003757DB /* Preview Assets.xcassets */; };
 		3553DCEF26636CB8003757DB /* FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553DCEE26636CB8003757DB /* FlipTests.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		3553DCD926636CB7003757DB /* Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3553DCDC26636CB7003757DB /* FlipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipApp.swift; sourceTree = "<group>"; };
-		3553DCDE26636CB7003757DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3553DCDE26636CB7003757DB /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		3553DCE026636CB8003757DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3553DCE326636CB8003757DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3553DCE526636CB8003757DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,9 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				3553DCDC26636CB7003757DB /* FlipApp.swift */,
-				3553DCDE26636CB7003757DB /* ContentView.swift */,
-				358AD89E2666690E00A142F6 /* EmojiMemoryGame.swift */,
 				358AD89C2666673200A142F6 /* MemoryGame.swift */,
+				358AD89E2666690E00A142F6 /* EmojiMemoryGame.swift */,
+				3553DCDE26636CB7003757DB /* EmojiMemoryGameView.swift */,
 				355CCF2C2667A51100C665D5 /* Theme.swift */,
 				3553DCE026636CB8003757DB /* Assets.xcassets */,
 				3553DCE526636CB8003757DB /* Info.plist */,
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				358AD89D2666673200A142F6 /* MemoryGame.swift in Sources */,
-				3553DCDF26636CB7003757DB /* ContentView.swift in Sources */,
+				3553DCDF26636CB7003757DB /* EmojiMemoryGameView.swift in Sources */,
 				355CCF2D2667A51100C665D5 /* Theme.swift in Sources */,
 				3553DCDD26636CB7003757DB /* FlipApp.swift in Sources */,
 				358AD89F2666690E00A142F6 /* EmojiMemoryGame.swift in Sources */,
